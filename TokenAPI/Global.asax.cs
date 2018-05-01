@@ -25,6 +25,7 @@ namespace TokenAPI
 
         private void ConfiMapper()
         {
+            //PM > Install - Package AutoMapper
             Mapper.Initialize(cfg =>
             {
                 cfg.CreateMap<UserIdentity, UserDTO>();
